@@ -34,7 +34,7 @@ public class SwaggerConfig {
 
 	@Bean
 	public GroupedOpenApi cloudConfigGroupedOpenApi() {
-		return GroupedOpenApi.builder().group("Spring Cloud Config").pathsToMatch("/usuario/**")
+		return GroupedOpenApi.builder().group("Kafka Producer").pathsToMatch("/usuario/**")
 				.addOpenApiCustomizer(cloudConfigOpenApiCustomiser())
 				.packagesToScan(UsuarioController.class.getPackageName()).build();
 	}

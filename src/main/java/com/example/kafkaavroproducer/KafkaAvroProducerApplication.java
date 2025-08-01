@@ -8,9 +8,9 @@ import com.example.kafkaavroproducer.config.properties.ServletProperties;
 
 @SpringBootApplication
 @ConfigurationPropertiesScan(basePackageClasses = ServletProperties.class)
-public class KafkaAvroApplication {
+public class KafkaAvroProducerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaAvroApplication.class, args);
+		SpringApplication.run(KafkaAvroProducerApplication.class, args);
 	}
 }

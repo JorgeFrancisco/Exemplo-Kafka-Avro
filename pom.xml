@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>kafka-avro-producer</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>kafka-avro-producer</name>
 	<description>Exemplo de uso do Kafka Producer com Avro</description>
 
