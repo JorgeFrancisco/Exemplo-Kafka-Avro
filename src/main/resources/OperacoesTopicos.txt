@@ -1,0 +1,8 @@
+Pra criar:
+docker exec -it kafka kafka-topics.sh --create --topic usuarios --partitions 5 --replication-factor 1 --bootstrap-server localhost:9092
+
+Pra alterar:
+docker exec -it kafka kafka-topics.sh --alter --topic usuarios --partitions 5 --bootstrap-server localhost:9092
+
+Pra enviar:
+docker exec -it kafka kafka-console-producer --broker-list localhost:9092 --topic usuarios --property "parse.key=true" --property "key.separator=:"

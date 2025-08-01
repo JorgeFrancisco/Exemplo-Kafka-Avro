@@ -1,0 +1,10 @@
+{
+  "namespace": "com.example.kafkaavro.model",
+  "type": "record",
+  "name": "Usuario",
+  "fields": [
+    {"name": "id", "type": ["null", "int"], "default": null},
+    {"name": "nome", "type": "string"},
+    {"name": "email", "type": ["null", "string"], "default": null}
+  ]
+}

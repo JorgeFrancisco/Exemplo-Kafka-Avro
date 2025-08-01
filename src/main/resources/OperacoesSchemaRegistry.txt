@@ -1,0 +1,17 @@
+Listar todos os subjects:
+http://localhost:9093/subjects
+
+Listar versões de um subject chamado usuarios-value:
+http://localhost:9093/subjects/usuarios-value/versions
+
+Obter schema da versão 1 do subject usuarios-value:
+http://localhost:9093/subjects/usuarios-value/versions/1
+
+Checar compatibilidade do último schema de um subject:
+http://localhost:9093/compatibility/subjects/usuarios-value/versions/latest
+
+Atualizar política de compatibilidade para um subject (exemplo: compatibilidade "BACKWARD"):
+curl -X PUT -H "Content-Type: application/json" --data '{"compatibility": "BACKWARD"}' http://localhost:9093/config/usuarios-value
+
+Apagar o subject do Schema Registry para resetar e registrar o novo schema
+curl -X DELETE http://localhost:9093/subjects/usuarios-value
