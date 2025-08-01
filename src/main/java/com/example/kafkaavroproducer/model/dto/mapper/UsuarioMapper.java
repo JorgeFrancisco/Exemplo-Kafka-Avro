@@ -1,10 +1,10 @@
-package com.example.kafkaavro.model.dto.mapper;
+package com.example.kafkaavroproducer.model.dto.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 
 import com.example.kafkaavro.model.Usuario;
-import com.example.kafkaavro.model.dto.UsuarioDTO;
+import com.example.kafkaavroproducer.model.dto.UsuarioDTO;
 
 import lombok.Generated;
 

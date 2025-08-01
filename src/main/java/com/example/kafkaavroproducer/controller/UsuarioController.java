@@ -1,4 +1,4 @@
-package com.example.kafkaavro.controller;
+package com.example.kafkaavroproducer.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.kafkaavro.model.dto.UsuarioDTO;
-import com.example.kafkaavro.service.UsuarioSenderService;
+import com.example.kafkaavroproducer.model.dto.UsuarioDTO;
+import com.example.kafkaavroproducer.service.UsuarioSenderService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

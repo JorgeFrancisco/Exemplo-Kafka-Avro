@@ -1,4 +1,4 @@
-package com.example.kafkaavro.model.dto;
+package com.example.kafkaavroproducer.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

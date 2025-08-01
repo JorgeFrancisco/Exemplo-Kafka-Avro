@@ -1,4 +1,4 @@
-package com.example.kafkaavro.config.swagger;
+package com.example.kafkaavroproducer.config.swagger;
 
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
@@ -11,8 +11,8 @@ import org.springframework.boot.info.BuildProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.example.kafkaavro.config.properties.ServletProperties;
-import com.example.kafkaavro.controller.UsuarioController;
+import com.example.kafkaavroproducer.config.properties.ServletProperties;
+import com.example.kafkaavroproducer.controller.UsuarioController;
 
 import io.swagger.v3.oas.models.info.Contact;
 import io.swagger.v3.oas.models.info.Info;
@@ -48,7 +48,7 @@ public class SwaggerConfig {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy.MM.dd.HH.mm.ss.SSS");
 		String formattedString = buildProperties.getTime().atZone(ZoneId.of("America/Sao_Paulo")).format(formatter);
 
-		return new Info().title("API - Exemplo Kafka").description("Documentação da API de exemplo de uso do Kafka.")
+		return new Info().title("API - Exemplo Kafka").description("Documentação da API de exemplo de uso do Kafka Producer.")
 				.version(buildProperties.getVersion() + "-" + formattedString)
 				.license(new License().name("Apache License Version 2.0")
 						.url("https://www.apache.org/licenses/LICENSE-2.0\""))

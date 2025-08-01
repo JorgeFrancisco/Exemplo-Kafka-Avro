@@ -1,4 +1,4 @@
-package com.example.kafkaavro.config.properties;
+package com.example.kafkaavroproducer.config.properties;
 
 import java.util.List;
 

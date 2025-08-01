@@ -1,10 +1,10 @@
-package com.example.kafkaavro;
+package com.example.kafkaavroproducer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
-import com.example.kafkaavro.config.properties.ServletProperties;
+import com.example.kafkaavroproducer.config.properties.ServletProperties;
 
 @SpringBootApplication
 @ConfigurationPropertiesScan(basePackageClasses = ServletProperties.class)

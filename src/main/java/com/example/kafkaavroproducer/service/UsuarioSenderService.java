@@ -1,14 +1,14 @@
-package com.example.kafkaavro.service;
+package com.example.kafkaavroproducer.service;
 
 import org.mapstruct.factory.Mappers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-import com.example.kafkaavro.config.properties.KafkaProperties;
 import com.example.kafkaavro.model.Usuario;
-import com.example.kafkaavro.model.dto.UsuarioDTO;
-import com.example.kafkaavro.model.dto.mapper.UsuarioMapper;
+import com.example.kafkaavroproducer.config.properties.KafkaProperties;
+import com.example.kafkaavroproducer.model.dto.UsuarioDTO;
+import com.example.kafkaavroproducer.model.dto.mapper.UsuarioMapper;
 
 @Service
 public class UsuarioSenderService {

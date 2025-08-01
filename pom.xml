@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>kafka-avro</artifactId>
+	<artifactId>kafka-avro-producer</artifactId>
 	<version>0.0.1</version>
-	<name>kafka-avro</name>
-	<description>Exemplo de uso do Kafka com Avro</description>
+	<name>kafka-avro-producer</name>
+	<description>Exemplo de uso do Kafka Producer com Avro</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

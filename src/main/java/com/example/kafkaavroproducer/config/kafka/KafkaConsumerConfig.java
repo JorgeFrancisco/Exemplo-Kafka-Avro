@@ -1,4 +1,4 @@
-package com.example.kafkaavro.config.kafka;
+package com.example.kafkaavroproducer.config.kafka;
 
 import java.util.HashMap;
 
@@ -11,8 +11,8 @@ import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 
-import com.example.kafkaavro.config.properties.KafkaProperties;
 import com.example.kafkaavro.model.Usuario;
+import com.example.kafkaavroproducer.config.properties.KafkaProperties;
 
 import io.confluent.kafka.serializers.AbstractKafkaSchemaSerDeConfig;
 import io.confluent.kafka.serializers.KafkaAvroDeserializer;

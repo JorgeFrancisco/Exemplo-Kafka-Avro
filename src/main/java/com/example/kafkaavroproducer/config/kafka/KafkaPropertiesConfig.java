@@ -1,9 +1,9 @@
-package com.example.kafkaavro.config.kafka;
+package com.example.kafkaavroproducer.config.kafka;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.example.kafkaavro.config.properties.KafkaProperties;
+import com.example.kafkaavroproducer.config.properties.KafkaProperties;
 
 @Configuration
 public class KafkaPropertiesConfig {
