@@ -155,3 +155,8 @@ Avro: rápido, compacto, seguro e preparado para evolução.
 
 ## 🛠️ Há na pasta resources o docker compose, para executar o Kafka e o RedPanda localmente. RedPanda é uma interface gráfica para manipulçao dos tópicos. 
 Há também outro arquivo, de operações dentro do container para manipular os tópicos. E mais outro arquivo para operações no Schema Registry
+
+---
+
+### Para gerar os artefatos do avsc e do mapper, etc:
+mvn clean generate-resources generate-sources compile
